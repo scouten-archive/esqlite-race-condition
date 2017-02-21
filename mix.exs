@@ -11,10 +11,10 @@ defmodule Rc.Mixfile do
   end
 
   def application do
-    [applications: [:esqlite, :logger]]
+    [applications: [:sqlitex, :logger]]
   end
 
   defp deps do
-    [{:esqlite, "~> 0.2.0"}]
+    [{:sqlitex, "~> 1.2.0"}]
   end
 end
